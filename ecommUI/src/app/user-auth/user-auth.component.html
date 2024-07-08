@@ -1,0 +1,22 @@
+<div *ngIf="userLoggedIn">
+    <form [formGroup]="userSignupForm" (ngSubmit)="userSignup(userSignupForm.value)" class="common-form">
+        <h2>User-Signup</h2>
+        <input class="form-input" type="text" formControlName="name" placeholder="Enter your name" >
+        <input class="form-input" type="text" formControlName="email" placeholder="Enter your email" >
+        <input class="form-input" type="password" formControlName="password" placeholder="Enter your password" >      
+        <button class="form-button">Signup</button>
+        <a class="auth-toggle-link" (click)="OpenLogin()">Already Have Account? Login</a>
+
+    </form>
+</div>
+
+<div *ngIf="!userLoggedIn">
+    <form [formGroup]="userLoginForm" (ngSubmit)="userLogin(userLoginForm.value)" class="common-form">
+        <h2>User-Login</h2>
+        <p class="error"> {{ authError }} </p>
+        <input class="form-input" type="text" formControlName="email" placeholder="Enter your email" >
+        <input class="form-input" type="password" formControlName="password" placeholder="Enter your password" >      
+        <button class="form-button">Login</button>
+        <a class="auth-toggle-link" (click)="OpenSignup()">Don't Have Account? Signup</a>
+    </form>
+</div>

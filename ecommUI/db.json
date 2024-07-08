@@ -1,0 +1,87 @@
+{
+  "seller": [
+    {
+      "name": "anil",
+      "email": "anil@gmail",
+      "password": "1234",
+      "id": "1"
+    }
+  ],
+  "product": [
+    {
+      "name": "iqoo neo7",
+      "price": 25000,
+      "color": "red",
+      "category": "mobile",
+      "description": "5g android mobile",
+      "imageUrl": "https://m.media-amazon.com/images/I/712pLRfzDYL._AC_UF1000,1000_QL80_.jpg",
+      "id": "2282"
+    },
+    {
+      "id": "b9d9",
+      "name": "iphone 14pro",
+      "price": 75000,
+      "category": "mobile",
+      "color": "black",
+      "description": "5g apple mobile",
+      "imageUrl": "https://cdn1.smartprix.com/rx-iGLnrwEhv-w280-h280/xiaomi-14-pro.jpg"
+    },
+    {
+      "id": "7543",
+      "name": "Dell Laptop",
+      "price": 50000,
+      "color": "White",
+      "category": "Laptop",
+      "description": "Dell 8th gen i5",
+      "imageUrl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-7430-2in1-intel/general/notebook-inspiron-14-7430-silver-right-facing.png?fmt=png-alpha&wid=800&hei=620"
+    },
+    {
+      "id": "c72e",
+      "name": "shoe",
+      "price": 1000,
+      "color": "White",
+      "category": "Footware",
+      "description": "Men casual shoe",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7C2rirqTGmXjZ-s4yNXoVW362LUl7DgHoYQ&s"
+    },
+    {
+      "id": "1e61",
+      "name": "Denim Shirt",
+      "price": 2000,
+      "color": "blue",
+      "category": "shirt",
+      "description": "Linen denim long sleeve shirt ",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRkAj8IzSpMbTjE4OiJ7oCpbiZ3h-Fd3esNQ&s"
+    },
+    {
+      "id": "8e31",
+      "name": "shoe",
+      "price": 1200,
+      "color": "black",
+      "category": "footwear",
+      "description": "Leather sneakers stylish",
+      "imageUrl": "https://th.bing.com/th/id/OIP.gZkK32a2aecjI5Ip3RxKewAAAA?w=230&h=200&c=7&o=5&dpr=1.3&pid=1.7"
+    }
+  ],
+  "user": [
+    {
+      "id": "1d16",
+      "name": "anil",
+      "email": "ganil@gmail",
+      "password": "1234"
+    }
+  ],
+  "cart": [],
+  "order": [
+    {
+      "id": "9f50",
+      "name": "a",
+      "email": "a",
+      "mobile": "a",
+      "address": "a",
+      "pin": 1,
+      "totalPrice": 24600,
+      "userId": "1d16"
+    }
+  ]
+}

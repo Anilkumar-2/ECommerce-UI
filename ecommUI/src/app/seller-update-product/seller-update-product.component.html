@@ -1,0 +1,12 @@
+<div>
+    <form [formGroup]="updateProductForm" (ngSubmit)="updateProduct(updateProductForm.value)" class="common-form">
+        <h1>Update Product</h1>
+        <input class="form-input" type="text" formControlName="name" [ngModel]="productData?.name" >
+        <input class="form-input" type="number" formControlName="price" [ngModel]="productData?.price" >
+        <input class="form-input" type="text" formControlName="color" [ngModel]="productData?.color" >
+        <input class="form-input" type="text" formControlName="category" [ngModel]="productData?.category" >
+        <input class="form-input" type="text" formControlName="description" [ngModel]="productData?.description" >
+        <input class="form-input" type="text" formControlName="imageUrl" [ngModel]="productData?.imageUrl" >
+        <button class="form-button">Update Product</button>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+table{
+    text-align: left;
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 1px solid blueviolet;
+    padding: 20px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.adjustUpdatebutton{
+    margin-left: 10px;
+}

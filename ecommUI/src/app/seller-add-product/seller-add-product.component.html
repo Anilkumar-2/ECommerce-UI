@@ -1,0 +1,12 @@
+<div>
+    <form [formGroup]="addProductForm" (ngSubmit)="addProduct(addProductForm.value)" class="common-form">
+        <h2>Add Product</h2>
+        <input class="form-input" type="text" formControlName="name" placeholder="Enter product name" >
+        <input class="form-input" type="number" formControlName="price" placeholder="Enter product price" >
+        <input class="form-input" type="text" formControlName="color" placeholder="Enter product color" >
+        <input class="form-input" type="text" formControlName="category" placeholder="Enter product category" >
+        <input class="form-input" type="text" formControlName="description" placeholder="Enter product description" >
+        <input class="form-input" type="text" formControlName="imageUrl" placeholder="Enter product imageUrl" >
+        <button class="form-button">Add Product</button>
+    </form>
+</div>

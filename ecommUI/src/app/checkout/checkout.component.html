@@ -1,0 +1,21 @@
+<div class="checkout">
+    <h1>Checkout</h1>
+    <p> {{ OrderMsg }} </p>
+    <div class="row">
+        <div class="col-sm-7">
+            <h3>Add shipping address</h3>
+            <form [formGroup]="shippingAddress" (ngSubmit)="orderNow(shippingAddress.value)" class="common-form" style="margin-top: 2%;">
+                <input class="form-input" type="text" formControlName="name" placeholder="Name">
+                <input class="form-input" type="text" formControlName="email" placeholder="Email">
+                <input class="form-input" type="text" formControlName="mobile" placeholder="Mobile number">
+                <input class="form-input" type="text" formControlName="address" placeholder="Address">
+                <input class="form-input" type="number" formControlName="pin" placeholder="Pincode">
+                <button class="form-button">Order Now</button>
+            </form>
+        </div>
+        <div class="col-sm-5">
+            <h3>Total Amount: Rs {{totalPrice}} /-</h3>
+            <h4>Payment Method : <b>Pay on delivery</b></h4>
+        </div>
+    </div>
+</div>
